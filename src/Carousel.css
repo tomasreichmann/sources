@@ -1,0 +1,106 @@
+.Carousel {
+  --item-width: 100vw;
+}
+
+.Carousel_items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.Carousel_item {
+  position: relative;
+  min-width: 0;
+  width: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.Carousel_item_content {
+  min-width: var(--item-width);
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+.Carousel_item__current,
+.Carousel_item__current ~ .Carousel_item {
+  width: var(--item-width);
+  min-width: var(--item-width);
+}
+.Carousel_controls {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Carousel_button {
+  box-sizing: content-box;
+  position: relative;
+  display: block;
+  padding: 0;
+  background-color: var(--color-link);
+  border: 0;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  margin: 0.5em 1em;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.Carousel_button:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  width: 1em;
+  border-top: 2px solid var(--color-primary);
+  transform: translate(0.5em, -1px);
+}
+.Carousel_button:last-child:after {
+  display: none;
+}
+.Carousel_button__active,
+.Carousel_button:hover {
+  background-color: var(--color-primary);
+  border: 0.25em solid var(--color-primary);
+  margin: 0.25em 0.75em;
+}
+
+@media (min-width: 600px) {
+  .Carousel {
+    --item-width: 50vw;
+  }
+  .Carousel_button:nth-last-child(1) {
+    display: none;
+  }
+  .Carousel_button:nth-last-child(2):after {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .Carousel {
+    --item-width: calc(50vw - var(--menu-width) / 2);
+  }
+  .Carousel_button:nth-last-child(2) {
+    display: none;
+  }
+  .Carousel_button:nth-last-child(3):after {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .Carousel {
+    --item-width: calc(33.3vw - var(--menu-width) / 3);
+  }
+  .Carousel_button:nth-last-child(3) {
+    display: none;
+  }
+  .Carousel_button:nth-last-child(4):after {
+    display: none;
+  }
+}

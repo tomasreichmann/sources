@@ -325,19 +325,15 @@ export default function App() {
           <div className="principles_text">
             <ul className="principles_icons linkedUl">
               <li>
-                <img src="/principle_icon_1.svg" alt="" />
                 Důsledná komunikace
               </li>
               <li>
-                <img src="/principle_icon_2.svg" alt="" />
                 Odborný background
               </li>
               <li>
-                <img src="/principle_icon_3.svg" alt="" />
                 Férové jednání
               </li>
               <li>
-                <img src="/principle_icon_4.svg" alt="" />
                 Dlouhodobé vztahy
               </li>
             </ul>

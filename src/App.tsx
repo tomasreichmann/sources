@@ -12,7 +12,6 @@ const routes = [
   //["#reference", "Reference"],
   ["#ukazky-obsazenych-pozic", "Ukázky obsazených pozic"],
   ["#zasady-a-etika", "Zásady a etika"],
-  ["#pomahame", "Pomáháme"],
   ["#kontakt", "Kontakt"]
 ];
 

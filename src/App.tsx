@@ -115,7 +115,7 @@ export default function App() {
 
         <section className="clients anchor" id="nasi-klienti">
           <div className="clients_items">
-            <a
+            {/*<a
               href="https://www.globalpayments.cz/cs-cz"
               target="_blank"
               rel="noopener noreferrer"
@@ -125,7 +125,7 @@ export default function App() {
                 alt="Global Payments"
                 title="Global Payments"
               />
-            </a>
+            </a>*/}
             <a
               href="https://www.ackee.cz/"
               target="_blank"
@@ -133,13 +133,13 @@ export default function App() {
             >
               <img src="/logos/logo_2.png" alt="Ackee" title="Ackee" />
             </a>
-            <a
+            {/*<a
               href="https://devix.cz/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="/logos/logo_3.png" alt="Devix" title="Devix" />
-            </a>
+            </a>*/}
             <a
               href="https://www.dieboldnixdorf.com/en-us"
               target="_blank"
@@ -194,13 +194,13 @@ export default function App() {
                 title="Komerční Banka"
               />
             </a>
-            <a
+            {/*<a
               href="https://barclays.co.uk"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="/logos/logo_10.png" alt="Barclays" title="Barclays" />
-            </a>
+            </a>*/}
             <a
               href="https://www.cez.cz/"
               target="_blank"
@@ -222,13 +222,13 @@ export default function App() {
             >
               <img src="/logos/logo_13.png" alt="DHL" title="DHL" />
             </a>
-            <a
+            {/*<a
               href="https://tv.nova.cz/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="/logos/logo_14.png" alt="TV Nova" title="TV Nova" />
-            </a>
+            </a>*/}
             <a
               href="https://www.trask.cz/"
               target="_blank"

@@ -377,7 +377,7 @@ export default function App() {
           </div>
         </section>
 
-        <section className="charity anchor" id="pomahame">
+        {/*<section className="charity anchor" id="pomahame">
           <div className="charity_featured">
             <div className="charity_featured_text">
               <img src="/charita.jpg" alt="" />
@@ -389,7 +389,7 @@ export default function App() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
       <section className="footer anchor" id="kontakt">
         <footer>

@@ -127,6 +127,39 @@ export default function App() {
               />
             </a>*/}
             <a
+              href="https://www.alza.cz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/logos/alza_cz.svg"
+                alt="Alza"
+                title="Alza"
+              />
+            </a>
+            <a
+              href="https://www.moneta.cz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/logos/Moneta.svg"
+                alt="Moneta Money Bank"
+                title="Moneta Money Bank"
+              />
+            </a>
+            <a
+              href="https://www.nicereply.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/logos/Nicereply.svg"
+                alt="Nicereply"
+                title="Nicereply"
+              />
+            </a>
+            <a
               href="https://www.ackee.cz/"
               target="_blank"
               rel="noopener noreferrer"

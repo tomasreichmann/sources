@@ -283,7 +283,6 @@ export default function App() {
               <li>COBOL Developer</li>
               <li>DB Admin (Oracle)</li>
               <li>MS Lync Administrator</li>
-              <li>Senior Consultant (AXAPTA)</li>
               <li>QA Manager</li>
               <li>Senior JAVA Developer</li>
               <li>Senior PHP Developer</li>
@@ -305,11 +304,9 @@ export default function App() {
               <li>Security analyst/pentester</li>
               <li>Consultant/Architect reporting</li>
               <li>Solution Architect (Webmethods)</li>
-              <li>Senior MIDAS Analyst</li>
               <li>ABAP Developer</li>
               <li>SAP MM / SD / WM Consultant</li>
               <li>iOS Developer</li>
-              <li>FoxPro Developer</li>
               <li>Principal Developer Oracle EBS</li>
               <li>Application Administrator</li>
               <li>Voice Engineer</li>
